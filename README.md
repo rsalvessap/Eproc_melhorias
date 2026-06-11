@@ -24,16 +24,15 @@ Após instalar, o ícone do Tampermonkey aparecerá na barra de extensões do na
 
 ## Scripts disponíveis
 
-### Filtro Localizador e Evento
+### Filtro Localizador
 
 **Arquivo:** `filtro-localizador-evento.user.js`
 
-Substitui os campos de seleção de **Localizador** e **Evento** por versões com campo de pesquisa/filtro, evitando a necessidade de rolar listas extensas.
+Substitui o campo de seleção de **Localizador** por uma versão com campo de pesquisa/filtro, evitando a necessidade de rolar listas extensas.
 
 **Funcionalidades:**
 - Campo de busca com filtro por texto no seletor de localizador (`selNovoLocalizador`)
-- Campo de busca com filtro por texto no seletor de evento (`txtEvento`)
-- Normalização de acentos na busca (ex: digitar "ato" encontra "Ato ordinário")
+- Normalização de acentos na busca (ex: digitar "vara" encontra "Vara Cível")
 - Mensagem de feedback quando nenhum resultado é encontrado
 - Compatível com os ambientes de produção e homologação do eproc TJSP
 
@@ -57,16 +56,10 @@ Substitui os campos de seleção de **Localizador** e **Evento** por versões co
 
 #### Como usar
 
-**Localizador:**
 1. Abra qualquer processo no eproc e acesse a tela de movimentação/peticionamento onde o campo de localizador aparece.
 2. O campo exibirá um seletor com campo de busca no lugar da lista original.
 3. Digite parte do nome do localizador para filtrar as opções.
 4. Clique na opção desejada para selecioná-la.
-
-**Evento:**
-1. Na tela de lançamento de evento, o campo de evento exibirá um seletor com campo de busca.
-2. Digite parte do nome ou código do evento para filtrar (ex: `"11383"` ou `"ato ordinário"`).
-3. Clique na opção desejada — os campos originais do eproc são preenchidos automaticamente.
 
 ---
 
