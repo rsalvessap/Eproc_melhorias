@@ -20,6 +20,23 @@ O Tampermonkey é uma extensão de navegador que permite instalar e executar use
 
 Após instalar, o ícone do Tampermonkey aparecerá na barra de extensões do navegador.
 
+### 2. Permitir a execução de userscripts
+
+Após instalar o Tampermonkey, é necessário conceder permissão para que ele execute scripts. O procedimento varia conforme a versão do navegador:
+
+**Chrome / Edge 138 ou superior:**
+
+1. Clique com o botão direito no ícone do Tampermonkey na barra de extensões.
+2. Selecione **"Manage Extension"** (Gerenciar extensão).
+3. Localize e ative o toggle **"Allow User Scripts"**.
+
+**Chrome / Edge (versões anteriores a 138):**
+
+1. Acesse `chrome://extensions` no Chrome ou `edge://extensions` no Edge.
+2. Ative o **Modo do desenvolvedor** pelo toggle no canto superior direito da página.
+
+> Sem essa configuração o Tampermonkey não consegue executar nenhum userscript, independentemente de estar instalado.
+
 ---
 
 ## Scripts disponíveis
